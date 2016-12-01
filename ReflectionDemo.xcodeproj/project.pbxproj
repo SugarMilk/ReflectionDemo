@@ -13,6 +13,10 @@
 		7E458D811DEFF88A00CCDD76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E458D7F1DEFF88A00CCDD76 /* Main.storyboard */; };
 		7E458D831DEFF88A00CCDD76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E458D821DEFF88A00CCDD76 /* Assets.xcassets */; };
 		7E458D861DEFF88A00CCDD76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E458D841DEFF88A00CCDD76 /* LaunchScreen.storyboard */; };
+		7E458D901DEFFABB00CCDD76 /* Calculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E458D8F1DEFFABB00CCDD76 /* Calculate.m */; };
+		7E458D931DEFFAFA00CCDD76 /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E458D921DEFFAFA00CCDD76 /* Operation.m */; };
+		7E458D961DEFFC8700CCDD76 /* Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E458D951DEFFC8700CCDD76 /* Addition.m */; };
+		7E458D991DEFFCB500CCDD76 /* Subtraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E458D981DEFFCB500CCDD76 /* Subtraction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,15 @@
 		7E458D821DEFF88A00CCDD76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E458D851DEFF88A00CCDD76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E458D871DEFF88A00CCDD76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E458D8D1DEFFA3800CCDD76 /* Reflection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reflection.h; sourceTree = "<group>"; };
+		7E458D8E1DEFFABB00CCDD76 /* Calculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculate.h; sourceTree = "<group>"; };
+		7E458D8F1DEFFABB00CCDD76 /* Calculate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculate.m; sourceTree = "<group>"; };
+		7E458D911DEFFAFA00CCDD76 /* Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operation.h; sourceTree = "<group>"; };
+		7E458D921DEFFAFA00CCDD76 /* Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Operation.m; sourceTree = "<group>"; };
+		7E458D941DEFFC8700CCDD76 /* Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Addition.h; sourceTree = "<group>"; };
+		7E458D951DEFFC8700CCDD76 /* Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Addition.m; sourceTree = "<group>"; };
+		7E458D971DEFFCB500CCDD76 /* Subtraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subtraction.h; sourceTree = "<group>"; };
+		7E458D981DEFFCB500CCDD76 /* Subtraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subtraction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +75,15 @@
 				7E458D7A1DEFF88A00CCDD76 /* AppDelegate.m */,
 				7E458D7C1DEFF88A00CCDD76 /* ViewController.h */,
 				7E458D7D1DEFF88A00CCDD76 /* ViewController.m */,
+				7E458D8D1DEFFA3800CCDD76 /* Reflection.h */,
+				7E458D8E1DEFFABB00CCDD76 /* Calculate.h */,
+				7E458D8F1DEFFABB00CCDD76 /* Calculate.m */,
+				7E458D911DEFFAFA00CCDD76 /* Operation.h */,
+				7E458D921DEFFAFA00CCDD76 /* Operation.m */,
+				7E458D941DEFFC8700CCDD76 /* Addition.h */,
+				7E458D951DEFFC8700CCDD76 /* Addition.m */,
+				7E458D971DEFFCB500CCDD76 /* Subtraction.h */,
+				7E458D981DEFFCB500CCDD76 /* Subtraction.m */,
 				7E458D7F1DEFF88A00CCDD76 /* Main.storyboard */,
 				7E458D821DEFF88A00CCDD76 /* Assets.xcassets */,
 				7E458D841DEFF88A00CCDD76 /* LaunchScreen.storyboard */,
@@ -151,9 +173,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E458D991DEFFCB500CCDD76 /* Subtraction.m in Sources */,
+				7E458D901DEFFABB00CCDD76 /* Calculate.m in Sources */,
 				7E458D7E1DEFF88A00CCDD76 /* ViewController.m in Sources */,
+				7E458D931DEFFAFA00CCDD76 /* Operation.m in Sources */,
 				7E458D7B1DEFF88A00CCDD76 /* AppDelegate.m in Sources */,
 				7E458D781DEFF88A00CCDD76 /* main.m in Sources */,
+				7E458D961DEFFC8700CCDD76 /* Addition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +336,7 @@
 				7E458D8C1DEFF88B00CCDD76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

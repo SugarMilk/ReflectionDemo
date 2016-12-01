@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "Calculate.h"
+#import "Operation.h"
 
 @interface ViewController ()
 
@@ -16,14 +18,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    NSObject
+
+    Operation * oper = [Operation new];
+    
+    BOOL value = [oper respondsToSelector:@selector(operate)];
+    
+    NSLog(@"value:  %d", value);
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)test {
+    
+    CGFloat result = [Calculate calculateWithNumber1:6 number2:8 operators:@"Subtraction"];
+    
+    NSLog(@"result:  %f", result);
 }
-
 
 @end
