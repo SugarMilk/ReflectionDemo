@@ -17,6 +17,7 @@
 		7E458D931DEFFAFA00CCDD76 /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E458D921DEFFAFA00CCDD76 /* Operation.m */; };
 		7E458D961DEFFC8700CCDD76 /* Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E458D951DEFFC8700CCDD76 /* Addition.m */; };
 		7E458D991DEFFCB500CCDD76 /* Subtraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E458D981DEFFCB500CCDD76 /* Subtraction.m */; };
+		7E458D9C1DF016F600CCDD76 /* NSObject+Invocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E458D9B1DF016F600CCDD76 /* NSObject+Invocation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		7E458D951DEFFC8700CCDD76 /* Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Addition.m; sourceTree = "<group>"; };
 		7E458D971DEFFCB500CCDD76 /* Subtraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subtraction.h; sourceTree = "<group>"; };
 		7E458D981DEFFCB500CCDD76 /* Subtraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subtraction.m; sourceTree = "<group>"; };
+		7E458D9A1DF016F600CCDD76 /* NSObject+Invocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Invocation.h"; sourceTree = "<group>"; };
+		7E458D9B1DF016F600CCDD76 /* NSObject+Invocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Invocation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 				7E458D7A1DEFF88A00CCDD76 /* AppDelegate.m */,
 				7E458D7C1DEFF88A00CCDD76 /* ViewController.h */,
 				7E458D7D1DEFF88A00CCDD76 /* ViewController.m */,
+				7E458D9A1DF016F600CCDD76 /* NSObject+Invocation.h */,
+				7E458D9B1DF016F600CCDD76 /* NSObject+Invocation.m */,
 				7E458D8D1DEFFA3800CCDD76 /* Reflection.h */,
 				7E458D8E1DEFFABB00CCDD76 /* Calculate.h */,
 				7E458D8F1DEFFABB00CCDD76 /* Calculate.m */,
@@ -178,6 +183,7 @@
 				7E458D7E1DEFF88A00CCDD76 /* ViewController.m in Sources */,
 				7E458D931DEFFAFA00CCDD76 /* Operation.m in Sources */,
 				7E458D7B1DEFF88A00CCDD76 /* AppDelegate.m in Sources */,
+				7E458D9C1DF016F600CCDD76 /* NSObject+Invocation.m in Sources */,
 				7E458D781DEFF88A00CCDD76 /* main.m in Sources */,
 				7E458D961DEFFC8700CCDD76 /* Addition.m in Sources */,
 			);

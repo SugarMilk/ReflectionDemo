@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "Calculate.h"
 #import "Operation.h"
+#import "NSObject+Invocation.h"
 
 @interface ViewController ()
 
@@ -19,13 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSObject
-
-    Operation * oper = [Operation new];
+    [self performSelector:@selector(testWithStringA:stringB:stringC:) withObjects:@[@"a", NSLL, @"c"]];
     
-    BOOL value = [oper respondsToSelector:@selector(operate)];
-    
-    NSLog(@"value:  %d", value);
 }
 
 - (void)test {
@@ -33,6 +29,13 @@
     CGFloat result = [Calculate calculateWithNumber1:6 number2:8 operators:@"Subtraction"];
     
     NSLog(@"result:  %f", result);
+}
+
+- (void)testWithStringA:(NSString *)stringA stringB:(NSString *)stringB stringC:(NSString *)stringC {
+    
+    NSString * value = [NSString stringWithFormat:@"%@ / %@ / %@", stringA, stringB, stringC];
+    
+    NSLog(@"value:  %@", value);
 }
 
 @end
