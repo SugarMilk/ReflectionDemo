@@ -7,6 +7,7 @@
 //
 
 #import "Operation.h"
+#import <objc/runtime.h>
 
 @implementation Operation
 
@@ -16,10 +17,6 @@
         self.number2 = number2;
     }
     return self;
-}
-
--(float)operate {
-    return 0;
 }
 
 @end

@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self performSelector:@selector(testWithStringA:stringB:stringC:) withObjects:@[@"a", NSLL, @"c"]];
+//    [self performSelector:@selector(testWithStringA:stringB:stringC:) withObjects:@[@"a", NSLL, @"c"]];
     
 }
 
