@@ -10,6 +10,14 @@
 
 @implementation NSObject (Invocation)
 
+
+/**
+ <#Description#>
+
+ @param aSelector <#aSelector description#>
+ @param objects <#objects description#>
+ @return <#return value description#>
+ */
 - (id)performSelector:(SEL)aSelector withObjects:(NSArray *)objects {
 
     NSMethodSignature *signature = [[self class] instanceMethodSignatureForSelector:aSelector];
